@@ -120,7 +120,7 @@ body { background: background: rgb(255, 255, 255) none repeat   scroll 0% 0%; }
 .main-link { display: block; margin: 20px auto; max-width: 300px; padding: 20px 5px; font-size: 20px; text-decoration: none; background-color: rgb(222, 6, 6); text-align: center; color: rgb(255, 255, 255) !important; border-radius: 4px; }
 .main-link:hover { opacity: 0.8; }
 .discount { position: relative; margin-bottom: 70px; }
-.discount::after { content: ""; position: absolute; width: 80px; height: 73px; background-image: url("style.css"); left: 0px; right: 0px; margin: 0px auto; bottom: -70px; }
+.discount::after { content: ""; position: absolute; width: 80px; height: 73px; background-image: url(""); left: 0px; right: 0px; margin: 0px auto; bottom: -70px; }
 .discount:hover::after { animation: 0.5s ease 0s normal none 1 running shake; transform-origin: center top 0px; }
 .main-link-bottom { max-width: 400px; }
 #news h1.ArticleHeader { font-size: 27px; text-align: center; line-height: 30px; margin-bottom: 30px; margin-top: 10px; font-weight: bold; }
@@ -1099,7 +1099,7 @@ background-size: cover;
     position: absolute;
     width: 30px;
     height: 30px;
-    background-image: url("style.css");
+    background-image: url("");
     background-size: 100%;
     top: -40px;
     border-radius: 50%;
@@ -1255,7 +1255,7 @@ background-size: cover;
     position: absolute;
     width: 30px;
     height: 30px;
-    background-image: url("style.css");
+    background-image: url("");
     background-size: 100%;
     top: -40px;
     border-radius: 50%;
@@ -1580,13 +1580,13 @@ padding: 8px 0;
     background-repeat: no-repeat; }
 .show-message__info.icon-box::before {
   content: " ";
-  background-image: url("style.css"); }
+  background-image: url(""); }
 
 .everad-sprite-callback + .show-message__info.icon-box::before {
-  background-image: url("style.css"); }
+  background-image: url(""); }
 
 .everad-sprite-bucket + .show-message__info.icon-box::before {
-  background-image: url("style.css"); }
+  background-image: url(""); }
 
 @media (max-width: 767px) {
   .show-message__info.icon-box.horizon {
